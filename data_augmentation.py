@@ -1,3 +1,6 @@
+import cv2
+import numpy as np
+
 def sample_asym(magnitude, size=None):
     return np.random.beta(1, 2, size) * magnitude
 
